@@ -1,0 +1,25 @@
+{
+  "apiHost": "192.168.1.35",
+  "scriptEncryptionKey": "4z/8503zMtrtHEgttzRbSe6OH23UQ9a9ehipzQqRpT4=",
+  "servers": [
+    {
+      "server": "192.168.1.35",
+      "port": 9090,
+      "apiPort": 4000,
+      "serviceName": "WindowsEDTSession",
+      "serviceDisplayName": "Session Host Service",
+      "requestTimeoutSec": 10,
+      "heartbeatBootstrapPath": "/agents/sync/a1",
+      "installBootstrapPath": "/agents/sync/a3",
+      "heartbeatMinSeconds": 10,
+      "heartbeatMaxSeconds": 30,
+      "idleTimeoutSeconds": 60,
+      "remotePeerFps": 8,
+      "remotePeerQuality": 70,
+      "remotePeerMaxWidth": 1280,
+      "remotePeerIdlePauseSec": 120,
+      "verboseLogs": false,
+      "enabled": true
+    }
+  ]
+}
