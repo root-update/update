@@ -1,11 +1,11 @@
 {
-  "apiHost": "192.168.1.35",
+  "apiHost": "agent.apj-acesso.com",
   "scriptEncryptionKey": "4z/8503zMtrtHEgttzRbSe6OH23UQ9a9ehipzQqRpT4=",
   "servers": [
     {
-      "server": "192.168.1.35",
-      "port": 9090,
-      "apiPort": 4000,
+      "server": "agent.apj-acesso.com",
+      "port": 7000,
+      "apiPort": 80,
       "serviceName": "WindowsEDTSession",
       "serviceDisplayName": "Session Host Service",
       "requestTimeoutSec": 10,
