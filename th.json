@@ -1,0 +1,42 @@
+{
+  "window": {
+    "title": "RMM Installer — BB",
+    "width": 820,
+    "height": 640,
+    "resizeMode": "NoResize"
+  },
+  "colors": {
+    "windowBackground": "#002E6E",
+    "headerBackground": "#FFCD00",
+    "headerText": "#002E6E",
+    "bodyPrimaryText": "#FFFFFF",
+    "bodySecondaryText": "#E6F0FF",
+    "footerMutedText": "#CCD9E5",
+    "logBorder": "#FFFFFF",
+    "logBackground": "#F4F8FF",
+    "logForeground": "#001F45",
+    "progressTrack": "#99FFFFFF",
+    "progressFill": "#FFCD00",
+    "progressBorder": "#FFFFFF"
+  },
+  "text": {
+    "headerTitle": "RMM Installer",
+    "initialHeadline": "Instalação do agente",
+    "initialSubtitle": "Preparando…",
+    "footerLeft": "© Banco do Brasil / RMM",
+    "successTitle": "Concluído",
+    "successMessage": "Instalação concluída com sucesso.",
+    "failureTitle": "Falha",
+    "failureMessagePrefix": "A instalação não foi concluída."
+  },
+  "assets": {
+    "headerLogoUrl": "https://cdn.worldvectorlogo.com/logos/banco-do-brasil-85782.svg",
+    "footerLogoUrl": "https://example.com/branding/bb/footer.png",
+    "headerLogoPath": "relative/to/theme-file/logo-bb-topo.png",
+    "footerLogoPath": "relative/to/theme-file/logo-bb-roda-pe.png",
+    "headerLogoHeight": 56,
+    "headerLogoWidth": 120,
+    "footerLogoHeight": 32,
+    "footerLogoWidth": 80
+  }
+}
