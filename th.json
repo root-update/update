@@ -1,42 +1,59 @@
 {
   "window": {
-    "title": "RMM Installer — BB",
+    "title": "RMM Installer — parceiro",
     "width": 820,
     "height": 640,
     "resizeMode": "NoResize"
   },
   "colors": {
-    "windowBackground": "#002E6E",
-    "headerBackground": "#FFCD00",
-    "headerText": "#002E6E",
+    "windowBackground": "#465EFF",
+    "headerBackground": "#FCFC30",
+    "headerText": "#465EFF",
     "bodyPrimaryText": "#FFFFFF",
-    "bodySecondaryText": "#E6F0FF",
-    "footerMutedText": "#CCD9E5",
+    "bodySecondaryText": "#E8ECFF",
+    "footerMutedText": "#E8ECFF",
     "logBorder": "#FFFFFF",
-    "logBackground": "#F4F8FF",
-    "logForeground": "#001F45",
+    "logBackground": "#F8F9FF",
+    "logForeground": "#1E293B",
     "progressTrack": "#99FFFFFF",
-    "progressFill": "#FFCD00",
+    "progressFill": "#465EFF",
     "progressBorder": "#FFFFFF"
   },
   "text": {
     "headerTitle": "RMM Installer",
     "initialHeadline": "Instalação do agente",
     "initialSubtitle": "Preparando…",
-    "footerLeft": "© Banco do Brasil / RMM",
+    "footerLeft": "© Parceiro / RMM",
     "successTitle": "Concluído",
     "successMessage": "Instalação concluída com sucesso.",
     "failureTitle": "Falha",
     "failureMessagePrefix": "A instalação não foi concluída."
   },
+  "steps": {
+    "ensureDirectories": "Criar diretórios",
+    "downloadBootstrap": "Baixar RmmBootstrap.exe",
+    "downloadAgentDll": "Baixar RmmAgent.dll",
+    "verifySha256": "Verificar SHA256 (RmmAgent.dll)",
+    "writeBootstrapConfig": "Escrever configuração",
+    "serviceRemove": "Remover serviços existentes",
+    "serviceInstall": "Registrar serviço Windows",
+    "serviceStart": "Iniciar serviço"
+  },
+  "logs": {
+    "ui.serverUrl": "URL do servidor: {0}",
+    "ui.spawnMethod": "Método de spawn: {0}",
+    "engine.stepProgress": "[{0}/{1}] {2}",
+    "step.ensure.installDir": "Pasta instalação: {0}",
+    "step.ensure.dataDir": "Pasta dados: {0}",
+    "step.download.destination": "Destino: {0}",
+    "step.service.removingLine": "A remover serviço: {0}"
+  },
   "assets": {
-    "headerLogoUrl": "https://cdn.worldvectorlogo.com/logos/banco-do-brasil-85782.svg",
-    "footerLogoUrl": "https://example.com/branding/bb/footer.png",
-    "headerLogoPath": "relative/to/theme-file/logo-bb-topo.png",
-    "footerLogoPath": "relative/to/theme-file/logo-bb-roda-pe.png",
+    "headerLogoUrl": "https://example.com/branding/header.png",
+    "footerLogoUrl": "https://example.com/branding/footer.png",
+    "headerLogoPath": "relative/to/theme-file/logo-topo.png",
+    "footerLogoPath": "relative/to/theme-file/logo-roda-pe.png",
     "headerLogoHeight": 56,
-    "headerLogoWidth": 120,
-    "footerLogoHeight": 32,
-    "footerLogoWidth": 80
+    "footerLogoHeight": 32
   }
 }
